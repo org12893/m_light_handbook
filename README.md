@@ -58,7 +58,7 @@ Here is the tree view of the Menustructure:
 	- Bluetooth
 	- Wireless
 	
-To Switch between the three main states idle, local and remote the left tactile push button is used. To dive one level deeper into the menu structure the right tactile push button is used. At the second level either "red, green, blue, white, rgbw, motor" or "bluetoot, wireless" the left button can be used again to switch between the states. To get back to the main three states use the right button again. 
+To Switch between the three main states idle, local and remote the left tactile push button is used. To dive one level deeper into the menu structure the right tactile push button is used. At the second level either "red, green, blue, white, rgbw, motor" or "bluetooth, wireless" the left button can be used again to switch between the states. To get back to the main three states use the right button again. 
 
 The current state is always visible on the display.
 
@@ -84,6 +84,13 @@ Installation of Android app
 
 Pairing with smartphone
 -----------------------
+To pair the moodlight with your smartphone go to the general android settings of the phone and turn bluetooth on. Depending on the Android version installed the exact naming and procedure might vary a little. It this is the case please check with the official documentation of your android version. As the procedere is very similar for all version here a short section for that.
+
+Go to the android settings, in there choose the Bluetooth section and turn Bluetooth on. There is a button on the top right which allows to search for nearby devices. Make sure that the Moodlight is plugged in and the Bluetooth functionality is turned on by goining into the remote bluetooth menu on the uC interface (see below).
+
+The Smartphone is now scanning for the device and will show new ones in the list. To pair the moodlight with the phone simply click pair. 
+
+If there are multiple ones compare the label which pops up in the bluetooth menuand the mac address printed on a lable directly on the bluetooth module which is soldered onto the controller board. 
 
 
 Android user interface
