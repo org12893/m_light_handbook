@@ -80,7 +80,17 @@ State: Wireless in this state the wireless uart is initialized.
 
 Installation of Android app
 ---------------------------
+The installation of the android app is a multi step process.
 
+1. Connect the smartphone with the development computer via USB.
+2. Search the Smartphoneo on the computer (system preferences) and check that the connection is established. 
+3. Open Android Studio. 
+4. Open the provided project folder into android studio.
+5. Select the app folder. 
+6. Click the run app icon on the top of the android studio.
+7. Search for devices under connected devices if it's not present there try to find the phone directly via the system preferences point (1).
+8. As soon as the device is found click click ok. 
+9. The Application is loaded onto the phone and started automatically. It will not start because there is no Moodlight paired yet. How to do that is described in the next section. 
 
 Pairing with smartphone
 -----------------------
