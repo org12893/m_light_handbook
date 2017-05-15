@@ -52,6 +52,14 @@ Pairing with smartphone
 
 Android user interface
 ----------------------
+The Android Moodlight App is devided into three tabs: RGB+W, HSV and Service. 
+
+How to use the app with the different tabs:
+### RBG+W 
+Within the RGB+W tab the red, green, blue and white values are directly controllable. The values can be entered with four independent horizontal sliders. Move any of the four sliders from left to right to increase the brightness of its represented color. 
+
+The horizontal Motor Sllider below the RGBW sliders allows to controll the Motor speed directly. Move the Slider from left to right to increase the rotation rate of the Star dome. 
+
 
 (Web user interface)
 ----------------------
