@@ -54,6 +54,8 @@ Android user interface
 ----------------------
 The Android Moodlight App is devided into three tabs: RGB+W, HSV and Service. 
 
+Open the Moodlight controller application "The Dome" by clicking on the corresponding Icon on the home screen of the smartphone. 
+
 How to use the app with the different tabs:
 ### RBG+W 
 Within the RGB+W tab the red, green, blue and white values are directly controllable. The values can be entered with four independent horizontal sliders. Move any of the four sliders from left to right to increase the brightness of its represented color. 
@@ -69,6 +71,14 @@ Within the HSV tab the three parameters for Hue, Saturation and Value can be set
 There is the option to include the white LED or leave it out. The option is represented by a rectangular checkbox. Checking the box includes the white led leave the box empty to not use the white led. 
 
 The color field on the bottom shows a preview of the set color. It changes as soon as one of the three slider changes. 
+
+### Service
+The service tab is used to connect and disconnect to the Moodlight. It can also be used to synchronize data and use the send this: section to send commands directly. This can help to find problems and or check additional functionalitites. The data received from the moodlight is also written into the text field on the bottom of the Service tab. 
+
+### App general
+Any additional informations and messages are displayed as little pop ups on the bottom of the application screen. There is one popup for showing that there is no Moodlight connected. 
+(TODO are there more?)
+
 
 
 
