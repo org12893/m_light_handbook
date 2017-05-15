@@ -60,6 +60,17 @@ Within the RGB+W tab the red, green, blue and white values are directly controll
 
 The horizontal Motor Sllider below the RGBW sliders allows to controll the Motor speed directly. Move the Slider from left to right to increase the rotation rate of the Star dome. 
 
+On the bottom is Coq-wheel turning when ever new data is sent to the Moodlight this sent to the Moodlight. The Button on the Right of the Coq-wheel allows to toggle the Light on and off and is also indicating the color that has been set for the light. 
+
+
+### HSV 
+Within the HSV tab the three parameters for Hue, Saturation and Value can be set by sliding the three sliders horizonaly. The actual representation of what the current slider possition means is represented as a strip behind the slider. Just below the three sliders are the calculated RGB values. 
+
+There is the option to include the white LED or leave it out. The option is represented by a rectangular checkbox. Checking the box includes the white led leave the box empty to not use the white led. 
+
+The color field on the bottom shows a preview of the set color. It changes as soon as one of the three slider changes. 
+
+
 
 (Web user interface)
 ----------------------
