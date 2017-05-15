@@ -40,6 +40,42 @@ Some problems which might occure and a possible solution:
 
 uC user interface
 -----------------
+The micro controller Interface is controlled via the two push Buttons and the touch slider. The Gecko touch button can be used to reset the controller. 
+
+After Startup the uC is in the idle state. Using the left button allows to switch between idle, local and remote. Local allows to control the Moodlight directly via the controls on the controller board. Remote is needed to allow contol via Bluetooth or Web UI. 
+
+Here is the tree view of the Menustructure:
+
+- IDLE
+- Local
+	- Red
+	- Green
+	- Blue
+	- White
+	- RGBW
+	- Motor
+- Remote
+	- Bluetooth
+	- Wireless
+	
+To Switch between the three main states idle, local and remote the left tactile push button is used. To dive one level deeper into the menu structure the right tactile push button is used. At the second level either "red, green, blue, white, rgbw, motor" or "bluetoot, wireless" the left button can be used again to switch between the states. To get back to the main three states use the right button again. 
+
+The current state is always visible on the display.
+
+Here the 2nd level states in more detail:
+
+States: Red, Green, Blue, White
+In the four states mentioned above the touch slider can beused to control the value of the specific color. The color value is displayed next to the color name on the LCD. Changing the value in one of the four states does immediately change the color of the Moodlight. 
+
+State: Motor 
+Within the Motor state the motor speed can be via touch slider the corresponding value is displayed on the LCD screen. 
+
+State: RGBW is a state with a simple test pattern to check the funtionality of all four leds by blinking them individualy for a short amount of time. 
+
+State: Bluetooth in this state the bluetooth module and its corresponding UART controller is initialized. This is indicated with three short flashes of the blue led.
+
+State: Wireless in this state the wireless uart is initialized. 
+
 
 
 Installation of Android app
