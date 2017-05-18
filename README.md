@@ -17,7 +17,7 @@ Getting started
 (Hardware installation guide)
 -----------------------------
 The Moodlight comes plug and playable out of the Box. The only additional connection that needs to be made is to plug the powercable into a wall socket. 
-As soon as the power cable is connected the lamp will quickly blink (TODO how many times and which color) to indicate that everything is connected properly. 
+As soon as the power cable is connected the lamp will quickly blink to indicate that everything is connected properly. 
 
 
 ### Troubleshooting 
@@ -58,9 +58,12 @@ Here is the tree view of the Menustructure:
 	- Bluetooth
 	- Wireless
 	
-To Switch between the three main states idle, local and remote the left tactile push button is used. To dive one level deeper into the menu structure the right tactile push button is used. At the second level either "red, green, blue, white, rgbw, motor" or "bluetooth, wireless" the left button can be used again to switch between the states. To get back to the main three states use the right button again. 
+To Switch between the three main states idle, local and remote the left tactile push button (PB0) is used. To dive one level deeper into the menu structure the right tactile push button (PB1) is used. At the second level either "red, green, blue, white, rgbw, motor" or "bluetooth, wireless" the left button can be used again to switch between the states. To get back to the main three states use the right button again. 
 
 The current state is always visible on the display.
+
+<img src="gecko.png" alt="dome icon" style="width: 100%;"/>
+
 
 Here the 2nd level states in more detail:
 
@@ -109,6 +112,8 @@ The Android Moodlight App is devided into three tabs: RGB+W, HSV and Service.
 
 Open the Moodlight controller application "The Dome" by clicking on the corresponding Icon on the home screen of the smartphone. 
 
+<img src="dome.png" alt="dome icon" style="width: 40%;"/>
+
 How to use the app with the different tabs:
 ### RBG+W 
 Within the RGB+W tab the red, green, blue and white values are directly controllable. The values can be entered with four independent horizontal sliders. Move any of the four sliders from left to right to increase the brightness of its represented color. 
@@ -117,6 +122,8 @@ The horizontal Motor Sllider below the RGBW sliders allows to controll the Motor
 
 On the bottom is Coq-wheel turning when ever new data is sent to the Moodlight this sent to the Moodlight. The Button on the Right of the Coq-wheel allows to toggle the Light on and off and is also indicating the color that has been set for the light. 
 
+<img src="rgbw.png" alt="RGBW Tab" style="width: 100%;"/>
+
 
 ### HSV 
 Within the HSV tab the three parameters for Hue, Saturation and Value can be set by sliding the three sliders horizonaly. The actual representation of what the current slider possition means is represented as a strip behind the slider. Just below the three sliders are the calculated RGB values. 
@@ -124,20 +131,21 @@ Within the HSV tab the three parameters for Hue, Saturation and Value can be set
 There is the option to include the white LED or leave it out. The option is represented by a rectangular checkbox. Checking the box includes the white led leave the box empty to not use the white led. 
 
 The color field on the bottom shows a preview of the set color. It changes as soon as one of the three slider changes. 
+<img src="hsv.png" alt="HSV Tab" style="width: 100%;"/>
 
 ### Service
 The service tab is used to connect and disconnect to the Moodlight. It can also be used to synchronize data and use the send this: section to send commands directly. This can help to find problems and or check additional functionalitites. The data received from the moodlight is also written into the text field on the bottom of the Service tab. 
+<img src="service.png" alt="service Tab" style="width: 100%;"/>
+
 
 ### App general
 Any additional informations and messages are displayed as little pop ups on the bottom of the application screen. There is one popup for showing that there is no Moodlight connected. 
-(TODO are there more?)
-
 
 
 
 (Web user interface)
 ----------------------
-
+<img src="webui.png" alt="webUI" style="width: 100%;"/>
 
 
 
